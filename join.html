@@ -1,0 +1,210 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <title>JCU Cairns Robotics Club</title>
+  <style>
+    header{
+      background: url(img/robot4.jpg);
+      background-size: cover;
+      background-position: center;
+      min-height: 700px;
+    }
+    @media screen and (max-width: 670px){
+      header{
+        min-height: 500px;
+      }
+    }
+    .section{
+      padding-top: 4vw;
+      padding-bottom: 4vw;
+    }
+    .tabs .indicator{
+      background-color: #1a237e;
+    }
+    .tabs .tab a:focus, .tabs .tab a:focus.active{
+      background: transparent;
+    }    
+  </style>
+</head>
+<body>
+
+  <!-- navbar -->
+  <header>
+    <nav class="nav-wrapper transparent">
+      <div class="container">
+        <a href="index.html" class="brand-logo indigo-text text-darken-4">JCU Cairns Robotics Club</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons indigo-text text-darken-4 text-bold">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#photos" class="indigo-text text-darken-4">Robots</a></li>
+          <li><a href="#service" class="indigo-text text-darken-4">Resources</a></li>
+          <li><a href="#contact" class="indigo-text text-darken-4 font-weight: bold">Contact</a></li>
+          <li><a href="join.html" class="indigo-text text-darken-4 font-weight: bold">Join</a></li>
+          <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Facebook">
+            <i class="fab fa-facebook"></i>
+          </a></li>          
+        </ul>
+        <ul class="sidenav grey lighten-2" id="mobile-menu">
+          <li><a href="#" class="indigo-text text-darken-4">About</a></li>
+          <li><a href="#" class="indigo-text text-darken-4">Resources</a></li>
+          <li><a href="#" class="indigo-text text-darken-4">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- services / tabs -->
+  <section class="section container scrollspy" id="services">
+    <div class="row">
+      <div class="col s12 l6">
+        <h2 class="indigo-text text-darken-4">What we do...</h2>
+        <p>JCU Cairns Robotics Club aims to promote the use of robots and autonomous systems
+          in practical situations within the Cairns Campus.</p>
+        <p>Also, the Club encourages community engagement with the University
+          and its objectives in tropical societies.</p>
+      </div>
+      <div class="col s12 l6 offset-l0">
+        <!-- tabs -->
+        <ul class="tabs">
+          <li class="tab col s6">
+            <a href="#members" class="active indigo-text text-darken-4">Who can join?</a>
+          </li>
+          <li class="tab col s6">
+            <a href="#location" class="indigo-text text-darken-4">Where and when?</a>
+          </li>
+        </ul>
+        <div id="members" class="col s12">
+          <p class="flow-text indigo-text text-darken-4">Membership is open to the following:</p>
+          <ul.browser-default class="list">
+            <li>Current JCU students</li>
+            <li>JCU staff members</li>
+            <li>JCU alumni</li>
+            <li>Members of the general public</li>
+          </ul>   
+        </div>
+        <div id="location" class="col s12">
+            <p class="flow-text indigo-text text-darken-4">Location</p>
+            <p>The Club meets in the Internet of Things Lab in Building E1 Room on the Cairns Campus.</p>
+            <p class="flow-text indigo-text text-darken-4">Times</p>
+            <p>Meeting times for Study Period 2, 2018 are TBA.</p>
+                   </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- parallax -->
+  <div class="container">
+    <div >
+      <img src="img/artificial_intelligence.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+
+  <!-- photo / grid -->
+  <section class="container section scrollspy" id="photos">
+    <div class="row">
+      <div class="col s12 l4">
+          <img src="img/pololu2.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="indigo-text text-darken-4">Zumo Robots</h2>
+        <p>The Pololu Zumo chassis is a small, tracked robot platform that is less than 10 cm on each side 
+          — small enough to qualify for Mini Sumo competitions — and works with a variety of micro metal 
+          gearmotors to allow for a customizable combination of torque and speed.</p>
+          <a href="https://www.pololu.com">Pololu website</a> |
+          <a href="https://www.pololu.com/category/129/zumo-robots-and-accessories">Zumo robots</a>  
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l4 offset-l1 push-l7">
+          <img src="img/robot3.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1 pull-l5 right-align">
+        <h2 class="indigo-text text-darken-4">Zumo shield</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l4">
+          <img src="img/arduino.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="indigo-text text-darken-4">Arduino</h2>
+        <p>Arduino Uno is a microcontroller board based on the ATmega328P.
+          It contains everything needed to support the microcontroller; simply connect it to a computer 
+          with a USB cable or power it with a AC-to-DC adapter or battery to get started.
+        </p>
+        <a href="https://www.arduino.cc">Arduino website</a> |
+        <a href="https://www.arduino.cc/reference/en/">Arduino programming language</a>
+        
+      </div>
+    </div> 
+
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div>
+      <img src="img/banner2.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+
+  <!-- contact form -->
+  <section class="container" id="contact">
+    <div class="row">
+      <div class="col s8 l10">
+        <h2 class="indigo-text text-darken-4">Join the Club</h2>
+        <p>If you wish to join the Club, please complete the form below:</p>         
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScEH2RAj2q_jvdL6B__vECOrNDjMb9SxhE4nR6t1AjrlKYIeA/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>       
+        <p>We will send an email to you confirming your membership.</p>    
+  </section>
+
+  <!-- footer -->
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5>About Us</h5>
+          <p>The Club was constituted in 2016.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#">Facebook</a></li> 
+            <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Facebook"></a></li>
+                <i class="fab fa-facebook"></i>           
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+      <div class="container center-align white-text">&copy; 2018 JCU Cairns Robotics Club | Images sourced from <a href="https://pixabay.com">Pixabay</a> under Creative Commons CC0.</a></div>
+    </div>
+  </footer>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav();
+      $('.materialboxed').materialbox();
+      $('.parallax').parallax();
+      $('.tabs').tabs();
+      $('.datepicker').datepicker({
+        disableWeekends: true,
+        yearRange: 1
+      });
+      $('.tooltipped').tooltip();
+      $('.scrollspy').scrollSpy();
+    });
+  </script>
+</body>
+</html>
