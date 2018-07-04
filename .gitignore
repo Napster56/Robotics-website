@@ -1,2 +1,41 @@
-# Do Ignore .txt files
-*.txt
+# Ignore files
+tempfile.txt
+*.zip
+*.gz
+log/*.log
+log/*.log.[0-9]
+
+# Ignore user-uploaded assets (images, PFDs, videos)
+img/*.jpeg*
+
+#VisualStudioCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
