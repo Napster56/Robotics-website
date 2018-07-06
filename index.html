@@ -101,8 +101,8 @@
     </div>
   </section>
   
-  <div class="parallax-container">
-    <div class="parallax">
+  <div class="container">
+    <div>
       <img src="img/banner.jpg" alt="banner_1" class="responsive-img">
     </div>
   </div>
@@ -111,24 +111,33 @@
   <section class="container section scrollspy" id="robots">
     <div class="row">
       <div class="col s12 l4">
-          <img src="img/pololu2.jpg" alt="" class="responsive-img materialboxed">
+          <img src="img/zumo.jpg" alt="" class="responsive-img materialboxed">
       </div>
       <div class="col s12 l6 offset-l1">
         <h2 class="indigo-text text-darken-4">Zumo Robots</h2>
         <p>The Pololu Zumo chassis is a small, tracked robot platform that is less than 10 cm on each side 
           — small enough to qualify for Mini Sumo competitions — and works with a variety of micro metal 
           gearmotors to allow for a customizable combination of torque and speed.</p>
+          <p>© 2001–2018 Pololu Corporation</p>
           <a href="https://www.pololu.com" target="blank">Pololu website</a> |
           <a href="https://www.pololu.com/category/129/zumo-robots-and-accessories" target="blank">Zumo robots</a>  
       </div>
     </div>
     <div class="row">
       <div class="col s12 l4 offset-l1 push-l7">
-          <img src="img/robot3.jpg" alt="" class="responsive-img materialboxed">
+          <img src="img/zumo_shield.jpg" alt="" class="responsive-img materialboxed">
       </div>
       <div class="col s12 l6 offset-l1 pull-l5 right-align">
-        <h2 class="indigo-text text-darken-4">Zumo shield</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
+        <h2 class="indigo-text text-darken-4">Zumo shield for Arduino</h2>
+        <p>This shield makes it easy to build an Arduino-controlled Zumo robot. The shield mounts onto an assembled 
+          Zumo chassis, connecting directly to the chassis’s battery terminals and motors, and the Arduino plugs into 
+          the shield, face down. This shield includes dual motor drivers, a buzzer for playing simple sounds and music, 
+          a user pushbutton, and a 3-axis accelerometer, compass, and gyroscope. The shield boosts the battery voltage 
+          to power the Arduino, and it breaks out the Arduino I/O lines, reset button, and user LED for 
+          convenient access and to accommodate additional sensors for things like obstacle and edge detection.</p>
+          <p>© 2001–2018 Pololu Corporation</p>
+          <a href="https://www.pololu.com" target="blank">Pololu website</a> |
+          <a href="https://www.pololu.com/product/2508" target="blank">Zumo shield</a> 
       </div>
     </div>
     <div class="row">
@@ -141,15 +150,16 @@
           It contains everything needed to support the microcontroller; simply connect it to a computer 
           with a USB cable or power it with a AC-to-DC adapter or battery to get started.
         </p>
+        <p>© 2018 Arduino</p>
         <a href="https://www.arduino.cc" target="blank">Arduino website</a> |
         <a href="https://www.arduino.cc/reference/en/" target="blank">Arduino programming language</a>
       </div>
     </div> 
 
   <!-- parallax -->
-  <div class="parallax-container">
+  <div class="container">
     <div>
-      <img src="img/girl-2181709_1920.jpg" alt="Robot_2" class="responsive-img">
+      <img src="img/robot_4.jpg" alt="Robot_4" class="responsive-img">
     </div>
   </div>
 
@@ -192,9 +202,9 @@
             <ul>
               <li><a class="grey-text text-lighten-3" href="#">Facebook</a></li> 
               <li><a href="https://www.facebook.com/jcu.cairns.robotics/" target="blank" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Facebook">
-                <i class="fab fa-facebook"></i>
-              </a>
-            </li>            
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </li>          
             </ul>
           </div>
         </div>
@@ -212,11 +222,7 @@
       $('.sidenav').sidenav();
       $('.materialboxed').materialbox();
       $('.parallax').parallax();
-      $('.tabs').tabs();
-      $('.datepicker').datepicker({
-        disableWeekends: true,
-        yearRange: 1
-      });
+      $('.tabs').tabs();      
       $('.tooltipped').tooltip();
       $('.scrollspy').scrollSpy();
     });
