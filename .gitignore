@@ -6,7 +6,7 @@ log/*.log
 log/*.log.[0-9]
 
 # Ignore user-uploaded assets (images, PFDs, videos)
-img/*.jpeg*
+img/*.*
 
 #VisualStudioCode
 .vscode/*
